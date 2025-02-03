@@ -21,12 +21,13 @@ const { Sequelize } = require("sequelize");
  //servidor
 
  const db = new Sequelize(
-  "piwdzivo_tehuapi",
-  "piwdzivo_theuadmin",
-  "jabondemanos23",
+  "tehudb",
+  "tehudb_user",
+  "FHnIGkCsntBUjiI8tTJOOAIGc5jkuztQ",
   {
-    host: "216.246.112.154",
-    dialect: "mysql",
+    host: "dpg-cugedv5svqrc738fiqv0-a",
+    dialect: "postgres",
+    port: 5432,
     define: { freezeTableName: true },
     timezone: "-05:00",  //Establecer la zona horaria deseada para las consultas
     dialectOptions: {

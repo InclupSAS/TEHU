@@ -20,7 +20,7 @@ const { Sequelize } = require("sequelize");
 
  //servidor
 
- const db = new Sequelize(
+/* const db = new Sequelize(
   "piwdzivo_tehuapi",
   "piwdzivo_theuadmin",
   "jabondemanos23",
@@ -33,6 +33,24 @@ const { Sequelize } = require("sequelize");
       dateStrings: true,
       typeCast: true,
       timezone: "-05:00", // Establecer la zona horaria deseada para la conexión
+    },
+  }
+); */
+
+const db = new Sequelize(
+  "tehudb",
+  "tehudb_user",
+  "FHnIGkCsntBUjiI8tTJOOAIGc5jkuztQ",
+  {
+    host: "dpg-cugedv5svqrc738fiqv0-a",
+    dialect: "postgres",
+    port: 5432,
+    define: { freezeTableName: true },
+    timezone: "-05:00",  //Establecer la zona horaria deseada para las consultas
+    dialectOptions: {
+      dateStrings: true,
+      typeCast: true,
+      timezone: "-05:00",  //Establecer la zona horaria deseada para la conexión
     },
   }
 ); 
