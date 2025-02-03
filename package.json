@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "pg": "^8.13.1",
-    "pg-hstore": "^2.3.4",
-    "build": "npm install && npx sequelize-cli db:migrate"
+    "pg-hstore": "^2.3.4"
   }
 }
