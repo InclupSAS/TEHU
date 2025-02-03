@@ -1,7 +1,7 @@
 const { Sequelize } = require("sequelize");
 
  //local
-  const db = new Sequelize(
+/*  const db = new Sequelize(
    "tehu",
    "root",
    "",
@@ -16,11 +16,11 @@ const { Sequelize } = require("sequelize");
        timezone: "-05:00",  //Establecer la zona horaria deseada para la conexión
      },
    }
- );
+ );*/
 
  //servidor
 
-/* const db = new Sequelize(
+ const db = new Sequelize(
   "piwdzivo_tehuapi",
   "piwdzivo_theuadmin",
   "jabondemanos23",
@@ -28,13 +28,13 @@ const { Sequelize } = require("sequelize");
     host: "216.246.112.154",
     dialect: "mysql",
     define: { freezeTableName: true },
-    timezone: "-05:00",  Establecer la zona horaria deseada para las consultas
+    timezone: "-05:00",  //Establecer la zona horaria deseada para las consultas
     dialectOptions: {
       dateStrings: true,
       typeCast: true,
-      timezone: "-05:00",  Establecer la zona horaria deseada para la conexión
+      timezone: "-05:00",  //Establecer la zona horaria deseada para la conexión
     },
   }
-); */
+); 
 
 module.exports = db;
