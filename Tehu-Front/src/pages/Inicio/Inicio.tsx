@@ -3,7 +3,7 @@ import Logo from "../../components/atoms/Logo/Logo";
 
 const Inicio = () => {
     return (
-        <div className="flex justify-center items-center min-h-screen py-28 bg-center bg-cover bg-[url('./back-mobile.avif')] md:bg-[url('./back-desktop.avif')]">
+        <div className="flex justify-center items-center min-h-screen py-28 bg-center bg-cover bg-[url('/back-mobile.avif')] md:bg-[url('/back-desktop.avif')]">
             <div className="text-center mt-12">
                 <Logo />
                 <div className="px-8">
