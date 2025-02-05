@@ -9,10 +9,10 @@ module.exports = {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         outfit: ["Outfit", "sans-serif"],
-        // outfitThin: ["Outfit Thin", "sans-serif"],
-        // outfitLight: ["Outfit Light", "sans-serif"],
-        // outfitMedium: ["Outfit Medium", "sans-serif"],
-        // outfitBold: ["Outfit Bold", "sans-serif"],
+        outfitThin: ["Outfit Thin", "sans-serif"],
+        outfitLight: ["Outfit Light", "sans-serif"],
+        outfitMedium: ["Outfit Medium", "sans-serif"],
+        outfitBold: ["Outfit Bold", "sans-serif"],
       },
       colors: {
         black: '#000000',
